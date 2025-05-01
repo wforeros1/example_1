@@ -2,6 +2,6 @@ name: hello world
 on: [push]
 jobs:
   hello-world:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-      - run: echo "hello world"
+      - run: ls -la
